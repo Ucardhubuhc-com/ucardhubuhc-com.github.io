@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What is the UCard and How Can I Use It – Ucardhub.uhc.com</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Discover what the UCard is, its benefits, and how to use and activate it with UnitedHealthcare (UHC). Explore FAQs, online account management, and more at Ucardhub.uhc.com.">
+  <meta name="keywords" content="UCard, UnitedHealthcare, UHC, Ucardhub, activate UCard, healthcare card, OTC purchases, simple payments, rewards, Medicare Flex Card, online account management">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ucardhub.uhc.com">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="What is the UCard and How Can I Use It – Ucardhub.uhc.com">
+  <meta property="og:description" content="Discover the UCard benefits, how to use and activate it, and get answers to FAQs about UnitedHealthcare’s UCard.">
+  <meta property="og:url" content="https://ucardhub.uhc.com">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What is the UCard and How Can I Use It – Ucardhub.uhc.com">
+  <meta name="twitter:description" content="Explore UCard benefits, activation, usage, and FAQs on Ucardhub.uhc.com.">
+  
+  <!-- JSON-LD FAQ Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where can I use my UCard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can use your UCard at a wide range of pharmacies, retail stores, medical offices, and online."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the UCard work like a debit card?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it functions similarly but is limited to eligible healthcare expenses and purchases."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should I do if my UCard is lost or stolen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Report it immediately on United Health Care or call UnitedHealthcare support for a replacement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I check my balance online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, log in to United Health Care to view your balance and check transactions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does UCard activation take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Activation is instant after completing the process on activate.uhc.com, via phone, or through the UHC app."
+        }
+      }
+    ]
+  }
+  </script>
+  
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  
+  <!-- Custom Button Styles -->
+  <style>
+    .btn {
+        --fancy-button-gradient-0: #ffdf20;
+        --fancy-button-gradient-50: #ffdf20;
+        --fancy-button-gradient-100: #ffdf20;
+        --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);
+        --fancy-button-inner-shadow-top-lg: rgba(9, 12, 60, 0.1);
+        --fancy-button-inner-shadow-bottom: rgba(137, 222, 246, 0.3);
+        --fancy-button-shine-top: #e9d1ff;
+        --fancy-button-shine-bottom: #adfff9;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 27px;
+        text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+        padding: 0;
+        margin: 0;
+        appearance: none;
+        border: none;
+        outline: none;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        z-index: 1;
+        border-radius: 25px;
+        color: #050505;
+        background-image: linear-gradient(to bottom,
+                var(--fancy-button-gradient-0) 0%,
+                var(--fancy-button-gradient-50) 50%,
+                var(--fancy-button-gradient-100) 100%);
+        box-shadow:
+            0px 4px 12px rgba(9, 12, 60, 0.15),
+            0px 2px 8px rgba(9, 12, 60, 0.15),
+            0px 1px 3px var(--fancy-button-inner-shadow-top-lg),
+            inset 0px 1px 1px var(--fancy-button-inner-shadow-top),
+            inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
+    }
+
+    .btn:before,
+    .btn:after {
+        content: "";
+        position: absolute;
+        border-radius: inherit;
+        will-change: transform;
+    }
+
+    .btn:before {
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--fancy-button-shine-top);
+        width: 96px;
+        height: 6px;
+        top: -3px;
+        opacity: 0.6;
+        filter: blur(6px);
+        transition: opacity 0.25s;
+    }
+
+    .btn:after {
+        inset: 0;
+        background-size: cover;
+        z-index: 2;
+        opacity: 0.3;
+        mix-blend-mode: overlay;
+        pointer-events: none;
+    }
+
+    .btn span {
+        display: block;
+        padding: 22px 34px;
+        border-radius: inherit;
+        overflow: hidden;
+        position: relative;
+        background-image: linear-gradient(to bottom,
+                var(--fancy-button-shine-top),
+                transparent 8px);
+        background-position: 0 -6px;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    .btn span:before,
+    .btn span:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        background-color: var(--fancy-button-shine-bottom);
+        transition:
+            opacity 0.25s,
+            transform 0.25s;
+        will-change: transform;
+    }
+
+    .btn span:before {
+        width: 92px;
+        height: 8px;
+        bottom: -4px;
+        opacity: 0.75;
+        filter: blur(6px);
+    }
+
+    .btn span:after {
+        width: 112px;
+        height: 1px;
+        bottom: 0;
+        opacity: 0.9;
+        filter: blur(1px);
+    }
+
+    .btn:hover span:before {
+        opacity: 0.8;
+        transform: translateX(-50%) scale(1.25);
+    }
+
+    .btn:hover span:after {
+        opacity: 1;
+    }
+    
+    li {
+        margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="pb-6 bg-white lg:pb-0 fixed top-0 inset-x-0 z-50">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <!-- lg+ -->
+      <nav class="flex items-center justify-between h-16 lg:h-20">
+        <div class="flex-shrink-0">
+          <a href="#" title="" class="flex">
+            <img class="w-auto h-8 lg:h-8" src="/logo.png" alt="logo" />
+            <span class="text-xl font-bold ms-2 text-[#002677]">Ucardhub.uhc.com</span>
+          </a>
+        </div>
+        <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+          <svg class="block w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+          </svg>
+          <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="bg-[#002677] 2xl:py-24 2xl:bg-white">
+    <div class="px-4 mx-auto overflow-hidden bg-[#002677] max-w-7xl sm:px-6 lg:px-8 pt-16">
+      <div class="py-10 sm:py-16 lg:py-24 2xl:pl-24">
+        <div class="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
+          <div>
+            <h1 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl lg:leading-tight">
+              What is the UCard and How Can I Use It – Ucardhub.uhc.com
+            </h1>
+            <p class="mt-4 text-xl text-gray-50">
+              UCard is a versatile healthcare and benefits card given by UnitedHealthcare (UHC)
+            </p>
+            <div class="flex flex-row items-center mt-8 space-x-4 lg:mt-12">
+              <a href="#" title="" class="flex" role="button">
+                <button class="btn">
+                  <span>Activate UCard Now</span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="relative px-12 hidden lg:flex">
+            <svg class="absolute inset-x-0 bottom-0 left-1/2 -translate-x-1/2 -mb-48 lg:-mb-72 text-yellow-300 w-[460px] h-[460px] sm:w-[600px] sm:h-[600px]" fill="currentColor" viewBox="0 0 8 8">
+              <circle cx="4" cy="4" r="3" />
+            </svg>
+            <img class="relative w-full mx-auto lg:-mb-24" src="/family-removebg-preview.png" alt="family" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-8 mx-16">
+    <h2 class="lg:text-5xl text-xl p-8 pb-0 text-[#002677] font-bold">What is UnitedHealthcare (UHC)?</h2>
+    <p class="text-xl p-8">
+      UnitedHealthcare (UHC) is one of the largest healthcare insurance providers in the U.S. They provide various Medicare Advantage, Medicaid, and individual health plans to help millions access quality healthcare services, wellness programs, and prescription drug benefits.
+    </p>
+  </section>
+
+  <section class="p-8 mx-16">
+    <div class="grid md:grid-cols-2 lg:grid-cols-2 relative">
+      <div class="flex justify-center items-center">
+        <img src="/my-card-u.jpeg" alt="u card">
+      </div>
+      <div>
+        <h2 class="lg:text-5xl text-xl p-8 pb-0 text-[#002677] font-bold">What is the UCard?</h2>
+        <p class="text-xl p-8">
+          UCard is a person-specific card issued by UnitedHealthcare that covers multiple health benefits in one card. Members can use UCard for Medicare Advantage, wellness programs, eligible healthcare purchases, and other medical services. The card can be managed online via Ucardhub.uhc.com.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-8 mx-16">
+    <h2 class="lg:text-5xl text-xl font-bold p-8 text-[#002677] text-center">Benefits of the UCard</h2>
+    <div class="text-xl p-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold text-[#002677] mb-2">Covers (OTC) Purchases</h3>
+          <p class="text-xl">Use UCard at selected stores for eligible healthcare items.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold text-[#002677] mb-2">Simple Payments</h3>
+          <p class="text-xl">Pay for approved medical expenses, copays, and prescriptions.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold text-[#002677] mb-2">Get Rewards & Discounts</h3>
+          <p class="text-xl">Earn rewards for completing health-related activities and redeem them easily.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold text-[#002677] mb-2">Medicare Flex Card</h3>
+          <p class="text-xl">Covers additional services based on your plan for extra benefits.</p>
+        </div>
+        <!-- Card 5 -->
+        <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold text-[#002677] mb-2">Online Account Management</h3>
+          <p class="text-xl">Track online spending and benefits via Ucardhub.uhc.com.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-8 mx-16">
+    <h2 class="lg:text-5xl text-xl font-bold p-8 text-[#002677] mb-4 text-center">How to Use UCard?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Card 1 -->
+      <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold text-[#002677] mb-2">For OTC Purchases</h3>
+        <p>Swipe your UCard at checkout at a wide range of pharmacies and retail stores.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold text-[#002677] mb-2">For Medical Services</h3>
+        <p>Show your UCard to healthcare providers during appointments and get benefits.</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold text-[#002677] mb-2">For Online Transactions</h3>
+        <p>Log in to UHC to check balance and eligible purchases.</p>
+      </div>
+      <!-- Card 4 -->
+      <div class="border border-[#002677] bg-white text-black p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold text-[#002677] mb-2">For Reward Redemptions</h3>
+        <p>Easily use earned rewards at select locations for healthcare expenses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-8 mx-16">
+    <div>
+      <h2 class="lg:text-5xl text-xl p-8 text-[#002677] font-bold">How to Activate UCard?</h2>
+      <p class="text-xl p-8">
+        Before using the UCard, it must be activated. Users can activate their card via Ucardhub.uhc.com, phone, or the mobile app.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-2 relative">
+      <div class="flex justify-center items-center">
+        <img src="/desktop-web.svg" alt="u card">
+      </div>
+      <div>
+        <h2 class="lg:text-4xl text-xl p-8 text-[#002677] font-bold">Online Activation using activate.uhc.com</h2>
+        <a href="#">
+          <button class="px-6 py-2 bg-[#002677] rounded-xl mt-4 ms-6 text-white font-bold text-xl">Activate UHC UCard →</button>
+        </a>
+        <ol class="text-xl p-8 list-decimal">
+          <li>Go to activate.uhc.com on a web browser</li>
+          <li>Log in with your UnitedHealthcare account (or create one if you don’t have it)</li>
+          <li>Enter the UCard details and follow the activation process</li>
+          <li>Once activated, you can start using your UCard immediately</li>
+        </ol>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-2 relative">
+      <div>
+        <h2 class="lg:text-4xl text-xl p-8 text-[#002677] font-bold">Activate UCard by Phone</h2>
+        <ol class="text-xl p-8 list-decimal">
+          <li>Call the UCard activation number found on the card</li>
+          <li>Follow the instructions and enter your card details</li>
+          <li>Wait for the confirmation message indicating successful activation</li>
+        </ol>
+      </div>
+      <div class="flex justify-center items-center">
+        <img src="/phone call.svg" alt="u card">
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-2 relative">
+      <div class="flex justify-center items-center">
+        <img src="/mobile app.svg" alt="u card">
+      </div>
+      <div>
+        <h2 class="lg:text-4xl text-xl p-8 text-[#002677] font-bold">Activate via the UHC Mobile App</h2>
+        <ol class="text-xl p-8 list-decimal">
+          <li>Download the UnitedHealthcare app from the App Store or Google Play</li>
+          <li>Log in to your UHC account (or create one if you don’t have it)</li>
+          <li>Navigate to the UCard activation section and follow the instructions</li>
+          <li>Once activated, manage and track usage within the app</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FAQs Accordion Section -->
+  <div class="max-w-3xl mx-auto">
+    <h2 class="lg:text-4xl text-xl font-bold text-[#002677] mb-6">FAQs About UCard – Ucardhub.uhc.com</h2>
+    <div class="space-y-4">
+      <!-- Accordion Item 1 -->
+      <div class="border border-[#002677] rounded-lg">
+        <button class="w-full flex justify-between items-center p-4 text-left focus:outline-none toggle-btn">
+          <span class="font-bold">Q: Where can I use my UCard?</span>
+          <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="accordion-content hidden p-4 text-black">
+          <p>A: You can use your UCard at a wide range of pharmacies, retail stores, medical offices, and online.</p>
+        </div>
+      </div>
+      <!-- Accordion Item 2 -->
+      <div class="border border-[#002677] rounded-lg">
+        <button class="w-full flex justify-between items-center p-4 text-left focus:outline-none toggle-btn">
+          <span class="font-bold">Q: Does the UCard work like a debit card?</span>
+          <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="accordion-content hidden p-4 text-black">
+          <p>A: Yes, it functions similarly but is limited to eligible healthcare expenses and purchases.</p>
+        </div>
+      </div>
+      <!-- Accordion Item 3 -->
+      <div class="border border-[#002677] rounded-lg">
+        <button class="w-full flex justify-between items-center p-4 text-left focus:outline-none toggle-btn">
+          <span class="font-bold">Q: What should I do if my UCard is lost or stolen?</span>
+          <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="accordion-content hidden p-4 text-black">
+          <p>A: Report it immediately on United Health Care or call UnitedHealthcare support for a replacement.</p>
+        </div>
+      </div>
+      <!-- Accordion Item 4 -->
+      <div class="border border-[#002677] rounded-lg">
+        <button class="w-full flex justify-between items-center p-4 text-left focus:outline-none toggle-btn">
+          <span class="font-bold">Q: Can I check my balance online?</span>
+          <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="accordion-content hidden p-4 text-black">
+          <p>A: Yes, log in to United Health Care to view your balance and check transactions.</p>
+        </div>
+      </div>
+      <!-- Accordion Item 5 -->
+      <div class="border border-[#002677] rounded-lg">
+        <button class="w-full flex justify-between items-center p-4 text-left focus:outline-none toggle-btn">
+          <span class="font-bold">Q: How long does UCard activation take?</span>
+          <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="accordion-content hidden p-4 text-black">
+          <p>A: Activation is instant after completing the process on activate.uhc.com, via phone, or through the UHC app.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggles = document.querySelectorAll('.toggle-btn');
+      toggles.forEach((toggle) => {
+        toggle.addEventListener('click', function () {
+          const content = this.nextElementSibling;
+          content.classList.toggle('hidden');
+          const icon = this.querySelector('svg');
+          icon.classList.toggle('rotate-180');
+        });
+      });
+    });
+  </script>
+  
+  <footer class="bg-[#002677] text-white text-center py-4 mt-8">
+    <p>&copy; 2025 Ucardhub.uhc.com - All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

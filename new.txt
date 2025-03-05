@@ -1,0 +1,52 @@
+<meta name="description" content="Discover what the UCard is, its benefits, and how to use and activate it easily with UnitedHealthcare (UHC). Learn more at Ucardhub.uhc.com.">
+  <meta name="keywords" content="UCard, Ucardhub, UHC, UnitedHealthcare, UCard benefits, UCard activation, online activation, UHC Mobile App, activate UCard by phone">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://ucardhub.uhc.com">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="What is the UCard and How Can I Use It – Ucardhub.uhc.com">
+  <meta property="og:description" content="Explore the benefits of UCard and learn how to use and activate it with UnitedHealthcare (UHC). Get your FAQs answered at Ucardhub.uhc.com.">
+  <meta property="og:url" content="https://ucardhub.uhc.com">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What is the UCard and How Can I Use It – Ucardhub.uhc.com">
+  <meta name="twitter:description" content="Discover what the UCard is, its benefits, and how to activate it easily with UHC. Learn more at Ucardhub.uhc.com.">
+
+
+
+
+   <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is UnitedHealthcare (UHC)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "UnitedHealthcare (UHC) is one of the nation's leading health care providers, offering comprehensive health insurance plans and wellness programs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the UCard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The UCard is a convenient card issued by UHC that provides quick access to healthcare services and benefits."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I activate my UCard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can activate your UCard online at activate.uhc.com, by phone, or via the UHC Mobile App for a smooth activation process."
+        }
+      }
+    ]
+  }
+  </script>
